@@ -74,11 +74,11 @@ button:hover {
   background-color: rgb(144, 8, 8);
 }
 
-#equal {
+.equal {
   background-color: darkcyan;
   color: white;
 }
-#equal:hover {
+.equal:hover {
   background-color: teal;
 }
 
@@ -103,7 +103,7 @@ button:hover {
 }
 
 /* Move the equal sign to the right */
-#equal {
+.equal {
   /*Shorthand notation for next two lines: grid-column: 4 /5 ;*/
   grid-column-start: 4;
   grid-column-end: 5;
